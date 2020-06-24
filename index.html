@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Users and Repositories</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/index.js"></script>
+</head>
+
+<body>
+  <div id="container" class="container">
+    <header class="header">
+      <nav id="menu" class="menu">
+        <ul>
+          <li id="menu_users"><a class="active" href="/users">users</a></li>
+          <li id="menu_repos"><a href="/repos">repos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="users" class="content dispNone">
+      <div class="search_nav">
+        <form class="search">
+          <input type="text" class="search_field" placeholder="Search for users">
+        </form>
+      </div>
+      <nav class="navigation dispNone">
+        <!-- <span>results for </span> -->
+        <a class="prev" href="/users">prev</a>
+        <a class="next" href="/users">next</a>
+      </nav>
+      <ul class="users"></ul>
+      <nav class="navigation dispNone">
+        <a class="prev" href="/users">prev</a>
+        <a class="next" href="/users">next</a>
+      </nav>
+    </div>
+
+    <!-- <div class="content">
+      <div class="search_nav">
+        <nav class="navigation left">
+          <a href="">Back to Users</a>
+        </nav>
+      </div>
+      <div class="user">
+        <figure>
+          <img src="./img/ElenSimonyan.jpg" alt="">
+          <figcaption>User Name</figcaption>
+        </figure>
+        <div class="userInfo"></div>
+      </div>
+    </div> -->
+
+    <div id="repos" class="content dispNone">
+      <div class="search_nav">
+        <form class="search">
+          <input type="text" class="search_field" placeholder="Search for Repositories">
+        </form>
+      </div>
+      <nav class="navigation dispNone">
+        <a class="prev" href="/repos">prev</a>
+        <a class="next" href="/repos">next</a>
+      </nav>
+      <ul class="repos"></ul>
+      <nav class="navigation dispNone">
+        <a class="prev" href="/repos">prev</a>
+        <a class="next" href="/repos">next</a>
+      </nav>
+    </div>
+
+    <!-- <footer class="footer">
+      <p></p>
+    </footer> -->
+  </div>
+</body>
+
+</html>
