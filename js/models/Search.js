@@ -1,7 +1,7 @@
 export default class Search {
-  constructor(subject = "users", page = 1) {
+  constructor(subject = "users") {
     this.perPage = 20;
-    this.page = page < 1 ? 1 : page;
+    this.page = 1;
     this.subject = subject === "users" ? "users" : "repositories";
   }
 
