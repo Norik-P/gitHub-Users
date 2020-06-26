@@ -1,4 +1,4 @@
-# gitHub-Users
+# GitHub-Users
  
 This is a pure JavaScript CSS and HTML project, designed only for modern browsers.
 
